@@ -44,7 +44,7 @@ Configuration file is a simple python script, merely declaring necessary variabl
   	"*.bin",
   ]
 
-  # rpaths has one-to-one correspondence with wpaths for syncing multiple directories
+  # directory where changes will be rsynced
   rpath = "/var/www"
 
   # remote locations in rsync syntax, use "" for local
