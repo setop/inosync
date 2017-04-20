@@ -1,9 +1,10 @@
 # inosync
 
-Author: [Setop](mailto:setop@github.com)
+Author: [Setop](mailto:setop@fiveinthewood.com)
+
 Version: 0.1.0
+
 Web: http://github.com/setop/inosync
-Git: `git clone https://github.com/setop/inosync.git`
 
 This is a fork of [hollow/inosync](https://github.com/hollow/inosync) which focuses on limiting the scope of synchronization performed after each modification of the source.
 
@@ -91,7 +92,7 @@ To use this script you need the following software installed on your system:
 This version has been test under Linux 4.4.0, with pyinotify-0.9.6.
 
 
-# issues 
+# Issues 
 
 ## no space left on device
 
@@ -99,7 +100,7 @@ Linux opens one watch per file and per directory in the source hierarchy. The li
 
 If this limit is to low, it can be changed by root, using `sudo sysctl fs.inotify.max_user_watches=12345`
 
-## move or rename â€“ aka `mv` command â€“ fails
+## move or rename – aka `mv` command – fails
 
 Currently, inosync does not handle moves due to a limitation of rsync. There is no way to tell rsync a move has happened.
 
