@@ -1,3 +1,5 @@
+project transfered to Framagit : https://framagit.org/setop/inosync
+
 # inosync
 
 Author: [Setop](mailto:setop@fiveinthewood.com)
